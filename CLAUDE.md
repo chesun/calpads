@@ -97,5 +97,5 @@ The `.claude/skills/stata/` skill carries Stata-specific conventions relevant to
 |-----------|-------|--------|-------|
 | Year cleaning | `do/build/prepare/clean*.do` | Complete | One do file per year, 2013–14 … 2017–18 |
 | Grade points | inside `clean*.do` | Complete | `fgradept`, Hurtt algorithm |
-| A–G eligibility | `do/build/prepare/ageligibility.do` | **Draft / incomplete** | No `use`/`save`; has known syntax bugs; needs a combined multi-year cohort dataset upstream (see TODO.md / README.md) |
+| A–G eligibility | `do/build/prepare/ageligibility.do` | **Draft — never used in production** | Exploratory; no `use`/`save`; has known bugs (left as-is by design); needs a combined multi-year cohort dataset upstream (see TODO.md / README.md) |
 | Variable-name export | `do/check/varnames.do` | **Deprecated** | Do not run |
