@@ -39,7 +39,7 @@ repo. Only code, documentation, and a few small exported artifacts are tracked h
 ```
 calpads/
 ├── README.md                 # This handoff guide
-├── CLAUDE.md                 # Instructions for Claude Code (workflow overlay)
+├── CLAUDE.md                 # Instructions for Claude Code (personal AI-assistant setup)
 ├── TODO.md                   # Open work / known gaps
 ├── do/                       # All Stata code
 │   ├── settings.do           # Global path macros (EDIT THIS to point at your file system)
@@ -61,9 +61,10 @@ calpads/
 └── out/                      # Small exported artifacts (variable lists, missing tabulations)
 ```
 
-The overlay also adds `.claude/`, `decisions/`, `quality_reports/`, `explorations/`,
-`master_supporting_docs/`, and `templates/` — these support the research workflow, not the
-CALPADS pipeline itself. See § 8.
+The repo also contains `.claude/`, `decisions/`, `quality_reports/`, `explorations/`,
+`master_supporting_docs/`, and `templates/` — these belong to a personal Claude Code (AI coding
+assistant) setup, not the CALPADS pipeline. If you don't use Claude Code, you can ignore them
+entirely.
 
 ---
 
@@ -208,18 +209,7 @@ A useful external reference is the CALPADS training repository: https://csis.fcm
 
 ---
 
-## 8. The workflow overlay (`.claude/`)
-
-At handoff, the lab's **applied-microeconomics research workflow** overlay was ported into this
-repo (a versioned snapshot — not registered for ongoing sync). It lives in `.claude/` and adds
-rules, skills, agents, and hooks that standardize how Claude Code works in the lab's projects, plus
-supporting folders (`decisions/`, `quality_reports/`, `explorations/`, `master_supporting_docs/`,
-`templates/`). It does not change the CALPADS pipeline; `CLAUDE.md` is the entry point. If you do
-not use Claude Code, you can ignore `.claude/` entirely.
-
----
-
-## 9. Provenance
+## 8. Provenance
 
 - Original work: Christina Sun, CEL UC Davis, 2020 (~1 month, at the start of employment).
 - The grade-point algorithm originates with Alexandria Hurtt (see `doc/alex resources/`).

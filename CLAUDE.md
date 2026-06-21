@@ -1,10 +1,10 @@
 # CLAUDE.md — CALPADS Course-Completion Cleaning (Applied-Micro Overlay)
 
 <!-- This repo is in OFFBOARDING. It is a lightweight Stata data-cleaning project,
-     not an active paper. The applied-micro research workflow overlay was ported in
-     at handoff (see README.md § "The workflow overlay") to give the next operator
-     the same conventions used across the lab's other projects. There is no LaTeX
-     paper, talks, or estimation here — those overlay sections are intentionally omitted. -->
+     not an active paper. The .claude/ overlay is the original author's PERSONAL
+     Claude Code setup (not a lab standard); it was ported in at handoff so the
+     workflow conventions travel with the repo. There is no LaTeX paper, talks, or
+     estimation here — those overlay sections are intentionally omitted. -->
 
 **Project:** CALPADS Course Completion (crscomp) cleaning + UC A–G eligibility (draft)
 **Institution:** California Education Lab (CEL), UC Davis
@@ -38,7 +38,7 @@ calpads/
 ├── CLAUDE.md                  # This file
 ├── README.md                  # Handoff doc: structure + per-do-file inputs/outputs (START HERE)
 ├── TODO.md                    # Open work / known gaps
-├── .claude/                   # Applied-micro workflow overlay (rules, skills, agents, hooks)
+├── .claude/                   # Personal Claude Code setup (rules, skills, agents, hooks)
 ├── do/                        # Stata code (the pipeline)
 │   ├── settings.do            # Global path macros ($rawdtadir, $clndtadir, $projdir)
 │   ├── master.do              # Orchestrator — runs the pipeline in order (toggle per step)
