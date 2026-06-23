@@ -8,7 +8,7 @@
 **Lab:** California Education Lab (CEL), UC Davis
 **Original author:** Christina Sun (`chesun`)
 **When:** ~1 month of work in 2020
-**Status:** Offboarding / handoff. Lightweight — a handful of Stata `.do` files.
+**Status:** Offboarding Complete as of June 21, 2026.
 
 ---
 
