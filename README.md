@@ -1,5 +1,7 @@
 # CALPADS Course-Completion Cleaning — Project README
 
+> **Part of the [CEL Resource Hub](https://christinasun.net/cel_resource_hub/)** — Christina Sun's index of CEL code handoffs plus setup and workflow guides for inheriting them. Hub page for this repo: <https://christinasun.net/cel_resource_hub/repositories/calpads/>.
+
 > **Taking over this project?** This README is the handoff guide. Read § 1–4 to understand
 > what the code does and how the pieces fit, then use the **per-do-file input/output map**
 > in § 4 as your reference while running or modifying the pipeline. Known gaps and gotchas
